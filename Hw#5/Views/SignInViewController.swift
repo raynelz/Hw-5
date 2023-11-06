@@ -145,13 +145,13 @@ class SignInViewController: UIViewController {
             print("Email / password cannot be blank")
             return
         } else if email == "/" && password == "/" {
-            let secondViewController = BirthdayListViewController()
-            navigationController?.pushViewController(secondViewController, animated: true)
+            let BirthdayListVC = BirthdayListViewController()
+            navigationController?.pushViewController(BirthdayListVC, animated: true)
         }
     }
     
     //MARK: - Constraints
-    func setConstraints() {
+    private func setConstraints() {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         signInLabel.translatesAutoresizingMaskIntoConstraints = false
         loginStack.translatesAutoresizingMaskIntoConstraints = false

@@ -12,6 +12,9 @@
 		EC15419A2AF7D9560098DDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1541992AF7D9560098DDE0 /* Assets.xcassets */; };
 		EC15419D2AF7D9560098DDE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC15419B2AF7D9560098DDE0 /* LaunchScreen.storyboard */; };
 		EC1541A82AF7EEF50098DDE0 /* BirthdayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1541A72AF7EEF50098DDE0 /* BirthdayListViewController.swift */; };
+		EC1541AA2AF7F23A0098DDE0 /* ТЗ.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC1541A92AF7F23A0098DDE0 /* ТЗ.txt */; };
+		EC9B52972AF8F11100A21873 /* BirthdayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B52962AF8F11100A21873 /* BirthdayItem.swift */; };
+		EC9B52992AF8F3B800A21873 /* AddBithdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B52982AF8F3B800A21873 /* AddBithdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EC15419C2AF7D9560098DDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC15419E2AF7D9560098DDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1541A72AF7EEF50098DDE0 /* BirthdayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListViewController.swift; sourceTree = "<group>"; };
+		EC1541A92AF7F23A0098DDE0 /* ТЗ.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ТЗ.txt"; sourceTree = "<group>"; };
+		EC9B52962AF8F11100A21873 /* BirthdayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayItem.swift; sourceTree = "<group>"; };
+		EC9B52982AF8F3B800A21873 /* AddBithdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBithdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				EC1541A42AF7EDDF0098DDE0 /* Files */,
+				EC9B52952AF8F0F500A21873 /* Models */,
 				EC1541A62AF7EDF20098DDE0 /* Views */,
 				EC1541902AF7D9550098DDE0 /* AppDelegate.swift */,
+				EC1541A92AF7F23A0098DDE0 /* ТЗ.txt */,
 			);
 			path = "Hw#5";
 			sourceTree = "<group>";
@@ -76,8 +84,17 @@
 			children = (
 				EC1541942AF7D9550098DDE0 /* SignInViewController.swift */,
 				EC1541A72AF7EEF50098DDE0 /* BirthdayListViewController.swift */,
+				EC9B52982AF8F3B800A21873 /* AddBithdayViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EC9B52952AF8F0F500A21873 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B52962AF8F11100A21873 /* BirthdayItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1541AA2AF7F23A0098DDE0 /* ТЗ.txt in Resources */,
 				EC15419D2AF7D9560098DDE0 /* LaunchScreen.storyboard in Resources */,
 				EC15419A2AF7D9560098DDE0 /* Assets.xcassets in Resources */,
 			);
@@ -150,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9B52992AF8F3B800A21873 /* AddBithdayViewController.swift in Sources */,
 				EC1541952AF7D9550098DDE0 /* SignInViewController.swift in Sources */,
 				EC1541912AF7D9550098DDE0 /* AppDelegate.swift in Sources */,
 				EC1541A82AF7EEF50098DDE0 /* BirthdayListViewController.swift in Sources */,
+				EC9B52972AF8F11100A21873 /* BirthdayItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
